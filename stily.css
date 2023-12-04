@@ -3,10 +3,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-    background-image: url('IMG/capa\ god.jpg');
-    background-size: 75% auto; /* Define a largura para 75% e altura automática */
+}
+
+div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: left top;
 }
 
     font-family: Arial, sans-serif;
