@@ -32,7 +32,8 @@ header {
     text-align: center;
 }
 h1
-{color: #e4c40e;}
+{color: #e4c40e;
+width: 25%;}
 .capa {
    width:100%; 
 }
